@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Health Page</title>
+    <script src="https://kit.fontawesome.com/3e0c6c9ac8.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href=".\css\styles3.css">
+
+
+  </head>
+  <body>
+    <div class="waveWrapper waveAnimation">
+  <div class="waveWrapperInner bgTop">
+    <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+  </div>
+  <div class="waveWrapperInner bgMiddle">
+    <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+  </div>
+  <div class="waveWrapperInner bgBottom">
+    <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+  </div>
+</div>
+    <nav class="navbar">
+        <div class="nav-icon">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+
+        <div class="menu">
+          <a href=".\index.html"><li class="item">Home</li></a>
+          <a href=".\about.html"><li class="item">About</li></a>
+          <a href=".\contact.html"><li class="item active">Contact US</li></a>
+        </div>
+      </nav>
+      <main class="container">
+        <div class="row">
+
+
+        <div class="col col-lg-6">
+
+
+        <div class="form-wrapper">
+          <form id="form" method="post" name="emailform" action="email.php">
+            <h1 class="form-label">Contact us</h1>
+            <p class="form-undertitle">Fields marked "*" are required.</p>
+            <div class="form-input-grid">
+              <div>
+                <p class="form-text">Username*</p>
+                <div class="form-input-wrapper flexbox-left">
+                  <i class="uil uil-user"></i>
+                  <input class="form-input" id="uname" name="uname" type="text" placeholder="Username" aria-label="" required>
+                </div>
+              </div>
+              <div>
+              <p class="form-text">Password*</p>
+              <div class="form-input-wrapper flexbox-left">
+                <i class="uil uil-asterisk"></i>
+                <input class="form-input" id="pword" name="pword" type="password" placeholder="Password" aria-label="" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-input-max">
+            <p class="form-text">Email*</p>
+            <div class="form-input-wrapper flexbox-left">
+              <i class="uil uil-at"></i>
+              <input class="form-input" id="email" name="email" type="email" placeholder="Email" aria-label="" required>
+            </div>
+          </div>
+          <div class="form-input-max">
+            <p class="form-text">Message* (Max 500)</p>
+            <div id="textarea" class="form-input-wrapper flexbox-left-start">
+              <i class="uil uil-comment-dots"></i>
+              <textarea class="form-input" id="message" name="message" placeholder="Your message" maxlength="500" aria-label="" required></textarea>
+            </div>
+           </div>
+           <div class="form-input-max flexbox-left">
+            <div class="button-wrapper">
+              <button id="form-button" type="submit" class="button btn-primary"><i class="uil uil-envelope-heart"></i> Send<div class="btn-secondary"></div></button>
+             </div>
+           </div>
+         </form>
+
+        </div>
+        </div>
+        <div class="col col-lg-6">
+          <i class="fas fa-map-marker" style="font-size:50px"></i>
+          <hr>
+          <h3>Akshya Nagar<br><br>
+1st Block 1st Cross.<br><br>
+Rammurthy nagar <br><br>
+Bangalore-560016</h3>
+<hr> <div class="footer">
+  <div class="footer">
+    <a href="www.facebook.com"> <i class="fab fa-facebook-f" style="padding-right:100px ;"></i></a>
+    <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
+  </div>
+ </div>
+ <hr>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124410.13629382997!2d77.50355808944532!3d12.98356905159516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1610994154862!5m2!1sen!2sin" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        </div>
+      </main>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+      <script type="text/javascript" src="C:\int_proj\js\home_scr.js">
+
+      </script>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        </body>
+</html>
